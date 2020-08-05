@@ -4,10 +4,7 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
 
-console.log ("Something for practicing Git command line")
-console.log ("Another something")
-console.log ("Round 3")
-console.log ("Round 3a")
+console.log ("cleanup")
 
 mongoose.connect(process.env.DATABASE_URL, 
     {useNewUrlParser: true, useUnifiedTopology: true,})
