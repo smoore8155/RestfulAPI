@@ -7,6 +7,8 @@ const mongoose = require('mongoose')
 console.log ("Something for practicing Git command line")
 console.log ("Another something")
 console.log ("Round 3x")
+console.log ("Round 3")
+console.log ("Round 3a")
 
 mongoose.connect(process.env.DATABASE_URL, 
     {useNewUrlParser: true, useUnifiedTopology: true,})
