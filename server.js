@@ -5,6 +5,7 @@ const app = express()
 const mongoose = require('mongoose')
 
 console.log ("Something for practicing Git command line")
+console.log ("Another something")
 
 mongoose.connect(process.env.DATABASE_URL, 
     {useNewUrlParser: true, useUnifiedTopology: true,})
